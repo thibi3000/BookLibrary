@@ -10,7 +10,7 @@ namespace BookLibrary
 
         public int PageNumber { get; set; }
 
-        public string ISBN13 { get; set; }
+        public string ISBN13 { get; init; }
 
         public Book()
         {
